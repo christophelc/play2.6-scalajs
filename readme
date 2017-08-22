@@ -1,0 +1,7 @@
+Basic Play framework 2.6 application with scala.js and tests.
+
+From the client side, use of scala.js 0.6 with Node.js to export jquery libraries.
+
+TBD:
+- client/src/test/scala/ => scala.js tests not working since the dom is not created. The message is: "Error: jQuery requires a window with a document". Try with ScalaJSPlugin without any success. Try to upgrade to scala.js 1.0.0.M1 and to replace Node.js by Phantom.js without any success (many libraries not found).
+- shared/src/test/scala/ => test to be created if necessary
